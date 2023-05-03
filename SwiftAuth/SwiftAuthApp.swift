@@ -7,11 +7,10 @@
 
 import SwiftUI
 
-@main
-struct SwiftAuthApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+struct SwiftAuthentificationApp: App {
+        var body: some Scene {
+            WindowGroup {
+                RootView()
+            }
         }
     }
-}
